@@ -3,6 +3,25 @@ Tiny Swift implementation of the Levenshtein algorithm
 
 See https://en.wikipedia.org/wiki/Levenshtein_distance
 
+# Installation
+
+## Swift Package Manager
+
+To use this package with the <a href=https://swift.org/package-manager/>Swift Package Manager</a> you include this repository in your `Package.swift` file:
+
+```swift
+import PackageDescription
+
+let package = Package(
+    // ...
+    dependencies: [
+        // ...
+        .Package(url: "https://github.com/decryptOS/Levenshtein.git", majorVersion: 0, minor: 1),
+        // ...
+    ]
+)
+```
+
 # Usage
 ```swift
 let a = "Apple"
