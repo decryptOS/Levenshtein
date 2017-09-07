@@ -1,7 +1,5 @@
 # Levenshtein
-Tiny Swift implementation of the Levenshtein algorithm
-
-See https://en.wikipedia.org/wiki/Levenshtein_distance
+Tiny Swift implementation of the <a href=https://en.wikipedia.org/wiki/Levenshtein_distance>Levenshtein algorithm</a>
 
 # Installation
 
