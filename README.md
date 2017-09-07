@@ -24,6 +24,10 @@ let package = Package(
 
 # Usage
 ```swift
+import Levenshtein
+
+// ...
+
 let a = "Apple"
 let b = "Apples"
 assert(levenshteinDistance(a, b) == 1)
