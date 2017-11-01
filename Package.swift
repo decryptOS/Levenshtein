@@ -1,7 +1,18 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
 import PackageDescription
 
 let package = Package(
-    name: "Levenshtein"
+    name: "Levenshtein",
+    products: [
+        .library(
+            name: "Levenshtein",
+            targets: ["Levenshtein"])
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: "Levenshtein",
+            dependencies: []),
+    ]
 )
