@@ -14,5 +14,8 @@ let package = Package(
         .target(
             name: "Levenshtein",
             dependencies: []),
+        .testTarget(
+            name: "LevenshteinTests",
+            dependencies: ["Levenshtein"])
     ]
 )
